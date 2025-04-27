@@ -78,29 +78,29 @@ app.post('/mail', (req, res) => {
 });
 
 
-const pool = mysql.createPool({
-    host: 'localhost',
-    port: 3306,
-    user: 'dark',
-    password: process.env.DB2PASSWORD,
-    database: 'main',
-    waitForConnections: true,
-    connectionLimit: 5,  //hm
-    queueLimit: 0
-  });
-
-
-// // ok
 // const pool = mysql.createPool({
-//   host: 'iihpu.h.filess.io',
-//   port: 3307,
-//   user: 'test673_excitement',
-//   password: process.env.DB1PASSWORD,
-//   database: 'test673_excitement',
-//   waitForConnections: true,
-//   connectionLimit: 5,  //hm
-//   queueLimit: 0
-// });
+//     host: 'localhost',
+//     port: 3306,
+//     user: 'dark',
+//     password: process.env.DB2PASSWORD,
+//     database: 'main',
+//     waitForConnections: true,
+//     connectionLimit: 5,  //hm
+//     queueLimit: 0
+//   });
+
+
+// ok
+const pool = mysql.createPool({
+  host: 'iihpu.h.filess.io',
+  port: 3307,
+  user: 'test673_excitement',
+  password: process.env.DB1PASSWORD,
+  database: 'test673_excitement',
+  waitForConnections: true,
+  connectionLimit: 5,  //hm
+  queueLimit: 0
+});
 
 /*const pool1 = mysql.createPool({
   host: 'localhost',
