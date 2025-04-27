@@ -1,0 +1,32 @@
+body {
+    background-color: #000000;
+}
+
+#txt {
+    color: white;
+    position: absolute;
+    top: 18%;
+    right: 50%;
+    transform: translate(50%, -18%);
+}
+
+#codeInput {
+    width: 60%;
+    height: 30px;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    transform: translate(50%, -30%);
+    text-align: center;
+}
+
+#btn {
+    /* margin-top: 50px; */
+    position: absolute;
+    top: 38%;
+    right: 50%;
+    transform: translate(50%, -38%);
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+}

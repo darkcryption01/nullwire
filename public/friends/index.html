@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Friends</title>
+</head>
+<body>
+    <!-- <p>add user</p> -->
+
+
+    <header id="hd1" class="hd1">
+      <h2 id="txt" class="txt">Friends</h2>
+    </header>
+
+    <br>
+    <!-- <p>username</p> -->
+    <div class="inputForm">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 256 256"> <rect width="256" height="256" fill="none"></rect> <circle cx="128" cy="96" r="64" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="16"></circle> <path d="M30.989,215.99064a112.03731,112.03731,0,0,1,194.02311.002" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg>
+      <input id="usrs" placeholder="Enter Username" class="input" type="text">
+    </div>
+
+    <button class="sendBtn" id="ok">Send</button>
+    <br>
+    <br>
+    <button id="newBtn">incoming reqs</button>
+    <button id="btn69">outgoing reqs</button>
+    <p id="hmm"></p>
+
+    <div id="container">
+        <!-- <p id="txt"></p> -->
+    </div>
+
+    <!-- <div onclick="redirect('home')" id="div1" class="div1"> <p>home</p> </div>
+    <div onclick="redirect('addUser')" id="div2" class="div2"> <p>add user</p> </div>
+    <div onclick="redirect('settings')" id="div3" class="div3"> <p>settings</p> </div> -->
+
+    <div class="bottomDiv">
+        <div class="menu">
+        
+            <a data-href="/chat/" class="link">
+              <span class="link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect> <path d="M45.42853,176.99811A95.95978,95.95978,0,1,1,79.00228,210.5717l.00023-.001L45.84594,220.044a8,8,0,0,1-9.89-9.89l9.47331-33.15657Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><line x1="96" y1="112" x2="160" y2="112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="96" y1="144" x2="160" y2="144" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line> </svg>
+            </span>
+              <span class="link-title">Chat</span>
+            </a>
+          
+            <a id="tst" data-href="/friends/" class="tst">
+              <span class="link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256"> <rect width="256" height="256" fill="none"></rect> <circle cx="128" cy="96" r="64" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="16"></circle> <path d="M30.989,215.99064a112.03731,112.03731,0,0,1,194.02311.002" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg>
+              </span>
+              <span class="tst-title">Friends</span>
+            </a>
+        
+            <a data-href="/settings/" class="link">
+                <span class="link-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                </span>
+                <span class="link-title">Settings</span>
+              </a>
+        
+          </div>
+            </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

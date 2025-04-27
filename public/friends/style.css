@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.txt {
+  color: white;
+}
+
+.hd1 {
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+
+.dark {
+    background-color: #121212;
+}
+
+.light {
+    background-color: whitesmoke;
+}
+
+.sendBtn {
+  height: 50px;
+  width: 50px;
+  font-size: 15px;
+  margin-top: -50px;
+  position: absolute;
+  right: 7%;
+}
+
+.inputForm {
+  margin-left: 20px;
+  border: 1.5px solid #ecedec;
+  border-radius: 10px;
+  height: 50px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+/*    background-color: black; */
+}
+
+.input {
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 15.75px !important; 
+  padding-left: 10px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+#container {
+    height: 550px;
+    width: 400px;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 10%;
+}
+
+#btn69 {
+    margin-left: 40px;
+}
+
+
+#container0 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /* background-color: red; */
+}
+
+#container69 {
+    height: 50px;
+    width: 130px;
+    background-color: red;
+    position: absolute;
+    right: 0%;
+    display: none;
+}
+
+#msgDiv {
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    display: none;
+    /* position: fixed; */
+}
+
+#topDiv {
+    height: 60px;
+    width: 100%;
+    /* background-color: blue; */
+    display: none;
+}
+
+
+/* From Uiverse.io by Admin12121 */ 
+.menu {
+    padding: 0.5rem;
+    background-color: #fff;
+    position: relative;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px 0 rgba(#000, 0.075);
+    border: #000 2px solid;
+    /* bottom: 0%; */
+  }
+
+  .bottomDiv {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%)
+  }
+
+
+  .tst {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    /* transform-origin: center left; */
+    /* transition: width 0.2s ease-in; */
+    text-decoration: none;
+    color: inherit;
+    width: 130px;
+    background-color: #eee;
+    -webkit-tap-highlight-color: transparent; /* Mobile browsers */
+  }
+
+  .tst-title {
+    display: block;
+    text-align: center;
+    text-indent: 28px;
+    width: 100%;
+  }
+
+
+  .tst2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transform-origin: center left;
+    transition: width 0.2s ease-in;
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent; /* Mobile browsers */
+    &:before {
+      position: absolute;
+      z-index: -1;
+      content: "";
+      display: block;
+      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      transform: translateX(100%);
+      transition: transform 0.2s ease-in;
+      transform-origin: center right;
+      background-color: #fff;
+    }
+  
+    &:hover,
+    &:focus {
+      outline: 0;
+      width: 130px;
+  
+      &:before,
+      .link-title {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  }
+  
+  .link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transform-origin: center left;
+    transition: width 0.2s ease-in;
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent; /* Mobile browsers */
+    &:before {
+      position: absolute;
+      z-index: -1;
+      content: "";
+      display: block;
+      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      transform: translateX(100%);
+      transition: transform 0.2s ease-in;
+      transform-origin: center right;
+      background-color: #eee;
+    }
+  
+    &:hover,
+    &:focus {
+      outline: 0;
+      width: 130px;
+  
+      &:before,
+      .link-title {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  }
+  
+  .link-icon {
+    width: 28px;
+    height: 28px;
+    display: block;
+    flex-shrink: 0;
+    left: 18px;
+    position: absolute;
+    svg {
+      width: 28px;
+      height: 28px;
+    }
+  }
+  
+  .link-title {
+    transform: translateX(100%);
+    transition: transform 0.2s ease-in;
+    transform-origin: center right;
+    display: block;
+    text-align: center;
+    text-indent: 28px;
+    width: 100%;
+  }
+  
