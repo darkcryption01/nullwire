@@ -36,7 +36,7 @@ const currentUsr = localStorage.getItem('currentUsr');
 
 
 
-const socket = new WebSocket('ws://localhost:7272/wsMsg');
+const socket = new WebSocket('wss://nullwire.us.to/wsMsg');
 
 socket.onopen = () => {
     console.log('connected to webSocket 1');
