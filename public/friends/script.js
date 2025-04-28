@@ -82,7 +82,7 @@ document.getElementById('ok').addEventListener('click', () => {
     const usrs = document.getElementById('usrs').value;
      
 
-    const socket = new WebSocket('ws://localhost:7272/ws');
+    const socket = new WebSocket('wss://nullwire.us.to/ws');
 
 
     socket.onopen = () => {
