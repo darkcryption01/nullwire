@@ -99,7 +99,7 @@ if (!email && !passwd) {
 
 
 
-                        const socket = new WebSocket('ws://localhost:7272/ws');
+                        const socket = new WebSocket('wss://nullwire.us.to/ws');
 
                         socket.onopen = () => {
                             console.log('connected to webSocket');
